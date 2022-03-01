@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
+## Introduction
+Orochi is an Ethereum file hosting sidechain.
 
-You can use the [editor on GitHub](https://github.com/orochi-sidechain/orochi-monorepo/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+Decentralised storage solutions like IPFS is not ideal for non-fungible storage. With these systems, files are stored by hashing files, where uniqueness is not guaranteed. Meanwhile, NFT marketplaces have needs like complying with law enforcement and regulation, whereas these storage solutions cannot guarantee that the files stored on its system are in compliance with the law. Users also have needs like guaranteeing uptime of the file.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Orochi seeks to solve these in a simple file storage solution built specifically for NFTs where:
+- files are always unique (never hashed)
+- Marketplaces can choose to host or decline to host an NFT, and be fully in compliance with the law
+- Users can choose which marketplaces will host their NFTs
+- Marketplaces can charge a fee for hosting NFTs and as such open up a new source of revenue for marketplaces (similar to a subscription revenue source)
+- Users can choose to move NFT hosting from marketplace to marketplace, and never lose an NFT just because a marketplace took it down
 
-### Markdown
+## Minimum Viable Product
+### Child Chain
+### Root Chain Smart Contracts
+### Client
+### CLI
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Contact
+By email: abdulla[dot]faraz[at]gmail[dot]com
 
-```markdown
-Syntax highlighted code block
+## License 
+GNU Affero General Public License v3
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/orochi-sidechain/orochi-monorepo/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Copyright © 2022, Abdulla Faraz
